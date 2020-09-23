@@ -1,0 +1,386 @@
+body{
+	/*background-image: url(..//images/img4.jpg);
+	background-size: cover;
+*//*	color: #fff;
+	font-family: Arial,Helvetica,Sans-serif,/*start:header*/;*/
+	padding: 0;
+	margin: 0;
+}
+.Home{
+	background-image: url(..//images/img5.jpeg);
+	background-size: cover;
+
+}
+header{
+	background-color: gray;
+	height: 100px;
+	display: block;height: 100px;
+	display: block;
+}
+header nav{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+header nav ul{
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+header nav ul li{
+	list-style: none;
+	float: left;
+}
+header nav ul li a{
+	color: white;
+	padding: 30px;
+	float: left;
+	font-size: 25px;
+	text-decoration: none;
+}
+header nav ul li a:hover{
+	color: orange;
+}
+.me{
+	color:orange;
+    padding-top:200px;
+    margin-left: 500px;
+    font-size: 60px;
+    line-height: 1;
+    font-style:sans-serif;
+	 font-weight: bolder;
+}
+.me2{
+	color:white;
+	line-height: 1;
+    padding-bottom:30px;
+    margin-left:650px;
+    font-size: 60px;
+
+}
+.About{
+	background-color: #fff;
+}
+
+.caco{
+	background-color: #fff;
+	height: 400px;
+	width-bottom:50px;
+	margin-left:800px;
+	position:relative;
+	direction: block;
+	margin-right: 400px;
+	margin-left: 600px;
+	margin-bottom: 500px;
+}
+.our{
+	color: orange;
+	padding-left: 600px;
+}
+.our2{
+  color: black;
+  padding-left: 500px;
+}
+.viso{
+  color: orange;
+  padding-left: 600px;
+
+}
+.viso2{
+  color: orange;
+  padding-left: 600px;
+
+}
+.circle1 {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background-image:url(..//images/lion.jpg);
+    background-size: cover;
+    position: absolute;
+    top: -700px;
+    left: -600px;
+}
+.circle2 {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background-image:url(..//images/pan.jpg);
+    background-size: cover;
+    bottom: 300px;
+    left: 450px;
+    position: absolute;
+}
+.circle3 {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background-image:url(..//images/culture.jpg);
+    background-size: cover;
+    position: absolute;
+    top: -700px;
+    left: 450px;
+}
+.circle4 {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background-image:url(..//images/house.jpg);
+    background-size: cover;
+    position: absolute;
+    margin-bottom: 300px;
+    left: -600px;
+    bottom: -50px;
+
+}
+.Kenya{
+	background-color: #ccc;
+
+}
+.wild1{
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+.para{
+	margin: 30px;
+	padding-left: 600px;
+	font-size: 30px;
+
+}
+.ornament{
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+.para2{
+	margin: 30px;
+	padding-left: 600px;
+	font-size: 30px;
+
+}
+.cards-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.article-card{
+  position:relative;
+  background:white;
+  min-width:300px;
+  max-width:350px;
+  min-height:400px;
+  max-height:500px;
+  box-shadow:0px 10px 50px #FFD8F3;
+  border-radius:5px;
+  margin:10px;
+  transition:0.3s ease;
+}
+.article-card-head img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+ 
+}
+
+html{
+   scroll-behavior: smooth;
+  
+}
+
+body .Uganda{
+  line-height: 30px;
+  padding: 0px;
+  margin:0px;
+}
+
+.main-container{
+  font-family:'opensans-regular',sans-serif;
+  min-height: 490px;
+  text-align: center;
+  color:orange;
+  font-weight: bolder;
+  padding-top: 200px;
+  /* background-color:rgb(0,0,0,0.9);*/
+  background-image: url(../images/img3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+.top-part hr{
+  width: 600px;
+}
+
+.navigation-bar ul li a{
+ text-decoration:none;
+
+}
+
+.nav ul{
+  float: right;
+  list-style-type: none;
+  margin: 40px;
+}
+
+.nav ul li{
+  display: inline-block;
+  font-family:'opensans-regular',sans-serif;
+}
+
+.nav ul li a{
+  padding: 8px 25px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.content{
+ padding-top: 100px;
+padding-bottom: 100px;
+color: black;
+text-align: center;
+font-size: 20px;
+width: 60%;
+margin: 0 auto;
+
+}
+/*.about{
+  background-color: #2B2B2B;
+}
+*/.icons {
+  text-align:center;
+
+  }
+.icons i{
+  font-size: 25px;
+
+  }
+.icons ul li{
+  display: inline;
+  list-style: none;
+  padding-right: 30px;
+}
+
+.icons ul li a{
+  color: black;
+}
+
+.container{
+height: 180px;
+background: #838C95;
+ padding-top: 100px;
+padding-bottom: 300px;
+font-size: 30px;
+color:white;
+
+}
+/*h5{
+  text-align: center;
+
+}*/
+
+.footer{
+text-align: center;
+background-color:rgb(0,0,0,0.8);
+padding-top: 50px;
+padding-bottom: 20px;
+font-size: 20px;
+color:white;
+
+}
+
+.footer p{
+    font-size:20px;
+   
+}
+.project{
+  padding-right: 150px;
+  padding-bottom: 50px;
+ 
+    text-align: center;
+  
+  
+
+}
+/*a{
+ color: #FD4703;
+}
+.p3{
+ float: right;
+}*/
+
+.anima{
+  padding-bottom: 100px;
+}
+a{
+  color: red;
+}
+.to{
+  color: yellow;
+}
+.wel{
+  color: black;
+}
+
+.cotet{
+  font-family:'opensans-regular',sans-serif;
+  min-height: 490px;
+  text-align: center;
+  color:orange;
+  font-weight: bolder;
+  padding-top: 200px;
+  /* background-color:rgb(0,0,0,0.9);*/
+  background-image: url(../images/big2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wee{
+  color: white;
+  font-size: 40px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.acc{
+  margin-left: 100px;
+  font-size: 30px;
+  color: orange;
+}
+.mara{
+  color: white
+}
+.wel1{
+  color: black;
+}
+.wel2{
+  color:white;
+}
+.wel3{
+  color: red;
+}
+.wel4{
+  color: green;
+}
